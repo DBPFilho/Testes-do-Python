@@ -1,0 +1,7 @@
+P = ('Analisador de texto')       
+print ('{:_^65}'.format(P))
+palavra = input(str('Quais palavras deseja analisar? ')).strip()
+print ('Com letras maiúsculas ficaria assim: {}'.format(palavra.upper()))
+print ('Com letras minúscula ficaria assim: {}'.format(palavra.lower()))
+print ('Sua palavra tem {} letras'.format(len(palavra)-palavra.count(' ')))
+print ('Sua primeira palavra tem {} letras'.format(palavra.find(' ')))

@@ -1,0 +1,5 @@
+P = ('Analisador de números')       
+print ('{:_^65}'.format(P))
+numero = input(str('Qual o número que deseja analisar? ')).strip()
+separa = numero.strip()
+print ('{}'.format(separa))
